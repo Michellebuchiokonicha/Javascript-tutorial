@@ -89,3 +89,40 @@ mimi(){
 
     // 
 }
+// let z = 10
+function multiple(x, y){
+    var z =10
+    var p = z + 10
+    //  x = 5;
+    // y = 6;
+//    console.log(x*y)
+//     return x*y
+
+return p
+
+// let z = x + y
+}
+// console.log(multiple())
+//  var celsuis =20;
+var celsuis;
+celsuis = 56;
+ var ye= (celsuis * 9/5) + 32 
+ 
+//  var celsuis =20;
+
+function toFahrenheit(celsuis){
+    // return (celsuis * 9/5) + 32
+    // celsuis = 20
+    // var ye= (celsuis * 9/5) + 32
+    // celsuis = 100;
+//  var ye= (celsuis * 9/5) + 32 
+var man ="Men are created by God at " + ye
+     document.getElementById("mimi").innerHTML = man
+     
+    // console.log(ye)
+}
+console.log(ye)
+//  console.log(toFahrenheit(20))
+//  document.getElementById("mimi").innerHTML =toFahrenheit(20)
+// multiple(5,4)
+// console.log(z)
