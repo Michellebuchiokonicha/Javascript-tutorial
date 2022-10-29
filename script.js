@@ -126,3 +126,54 @@ console.log(ye)
 //  document.getElementById("mimi").innerHTML =toFahrenheit(20)
 // multiple(5,4)
 // console.log(z)
+
+// 'my name is mimi'
+// ['my', 'name', 'is', 'mimi']
+// {1:'my', 2:'is', 3:'mimi'}
+
+// push - used to add things to the end of an array
+// pop - used to remove things to the end of an array
+// shift - used to remove things from the beggining of an array
+// unshift - used to remove things from the beginning of an array
+
+// 'rice', 'beans', 'fish', 'chicken', 'vegetable'
+var market_list1 = 'rice'
+var market_list2 = 'beans'
+var market_list3 = 'fish'
+var market_list4 = 'chicken'
+var market_list5 = 'vegetable'
+
+var market_list = ['rice', 'beans', 'fish', 'chicken', 'vegetable'];
+//  market_list.shift()
+// market_list.unshift('cat')
+// market_list.splice(2,0, 'man', 'girl')
+var newMarket = market_list.slice(-3, -1)
+//  market_list[6] = 'Indomie'
+// market_list[0]
+   
+            // {key. value}
+var mimi = {'mango': 'rice', 6: 'beans', 3:'fish', 4:'chicken', 5:'vegetable'}
+mimi.mango = 'farm'
+// console.log(mimi.mango)
+// console.log(mimi)
+
+// console.log(mimi[6])
+
+
+
+var empty_array = {}
+empty_array.first = 5
+empty_array[4] = 'map'
+empty_array.pin = 'yes'
+
+// console.log(empty_array)
+
+var fill_array = new Object()
+fill_array.first = 'pin'
+fill_array.second = 'cap'
+fill_array.third = 'shoe'
+
+console.log(fill_array)
+
+// console.log(newMarket)
+// console.log(market_list)
