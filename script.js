@@ -121,7 +121,7 @@ var man ="Men are created by God at " + ye
      
     // console.log(ye)
 }
-console.log(ye)
+// console.log(ye)
 //  console.log(toFahrenheit(20))
 //  document.getElementById("mimi").innerHTML =toFahrenheit(20)
 // multiple(5,4)
@@ -143,11 +143,14 @@ var market_list3 = 'fish'
 var market_list4 = 'chicken'
 var market_list5 = 'vegetable'
 
-var market_list = ['rice', 'beans', 'fish', 'chicken', 'vegetable'];
+// var market_list = ['rice', 'beans', 'fish', 'chicken', 'vegetable'];
 //  market_list.shift()
 // market_list.unshift('cat')
 // market_list.splice(2,0, 'man', 'girl')
-var newMarket = market_list.slice(-3, -1)
+// var newMarket = market_list.slice(-3, -1)
+var market_list = "rice, beans, fish, chicken, vegetable"
+var newMarket = market_list.substring(1, 17)
+console.log(newMarket)
 //  market_list[6] = 'Indomie'
 // market_list[0]
    
@@ -173,7 +176,44 @@ fill_array.first = 'pin'
 fill_array.second = 'cap'
 fill_array.third = 'shoe'
 
-console.log(fill_array)
+// console.log(fill_array)
 
 // console.log(newMarket)
 // console.log(market_list)
+
+let bridges = 'ABCDEFGHIJ';
+let bridges_length = bridges.length;
+// console.log(bridges_length)
+
+let bridgesLowerCase = bridges.toLowerCase();
+console.log(bridgesLowerCase)
+console.log(bridges)
+
+let y = '5'
+// converting strings to numbers
+console.log(Number(y))
+console.log(parseInt(y))
+console.log(parseFloat(y))
+
+var convertNumberToString = 25;
+var NumberString = 25
+
+let convertedNumber = convertNumberToString.toString()
+// '25'
+
+// console.log(convertedNumber === convertNumberToString)
+
+// console.log(convertedNumber == convertNumberToString)
+// console.log(convertNumberToString.toString() === convertNumberToString)
+
+// let b = 9;
+// if(b > 8){
+//     console.log('no non o') 
+// } else (console.log('yes'))
+
+const date = new Date().getMinutes()    
+// 51
+const now = 53;
+if(date < now){
+    console.log('less than now')
+} else alert('greater than now')
